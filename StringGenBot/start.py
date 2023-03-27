@@ -12,20 +12,24 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention},
+        text=f"""📟¦اهلا بـك عزيـزي 📬 {msg.from_user.mention},
+⚡¦يـمكنك استـخـراج الـتـالـي
+♻️¦تيرمـكـس تليثون للحسـابـات🏂
+♻️¦تيرمـكـس تليثون للبوتــات🤖
+🎧¦بايـروجـرام مـيوزك للحسابات🙋🏼‍♂️
+🗽¦بايـروجـرام مـيوزك احدث اصدار🎊
+🎧¦بايـروجـرام مـيوزك للبوتات🤖
+- يعمـل هـذا البـوت لمساعدتـك بطريقـة سهلـه للحصـول على كـود تيرمكـس لتشغيل تلـيثون والبايروجرام لتشغيل سـورس اغــاني تم انشـاء هـذا البـوت بواسطـة
 
-Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝐒𝐇𝐀𝐑𝐊](tg://user?id={OWNER_ID}) !""",
+بواسطـة : [ٌٍ3𝕄𝕆ℝ𝕐🜪](tg://user?id=5328713035) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+                    InlineKeyboardButton(text="🌐 ⍆ اضغط لبدا استخراج كود ⍅🌐", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊", url="https://t.me/L_H_V"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("⚙ الــســــوࢪسـ ⚙️", url="https://t.me/L_H_V"),
+                    InlineKeyboardButton("𝙳𝙴𝚅 𝙾𝙼𝙰𝚁𐇗", user_id=5328713035)
                 ]
             ]
         ),
